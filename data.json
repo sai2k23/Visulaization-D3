@@ -1,0 +1,6275 @@
+[
+  {
+    "timestamp": "2025-09-04T15:45:48",
+    "set_temp": 20.5,
+    "room_temp": 20.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T16:30:56",
+    "set_temp": 20.5,
+    "room_temp": 20.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T16:45:58",
+    "set_temp": 20.5,
+    "room_temp": 21.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T17:01:02",
+    "set_temp": 20.5,
+    "room_temp": 21.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T17:15:05",
+    "set_temp": 20.5,
+    "room_temp": 21.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T17:17:06",
+    "set_temp": 20,
+    "room_temp": "",
+    "humidity": "",
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T17:17:08",
+    "set_temp": 20,
+    "room_temp": "",
+    "humidity": "",
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T17:30:17",
+    "set_temp": 20,
+    "room_temp": 21.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T17:45:19",
+    "set_temp": 20,
+    "room_temp": 21.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T18:00:23",
+    "set_temp": 20,
+    "room_temp": 21.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T18:15:25",
+    "set_temp": 20,
+    "room_temp": 21.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T18:30:28",
+    "set_temp": 20,
+    "room_temp": 21.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T18:45:31",
+    "set_temp": 20,
+    "room_temp": 21.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T19:00:33",
+    "set_temp": 20,
+    "room_temp": 21.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T19:15:36",
+    "set_temp": 20,
+    "room_temp": 21.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T19:30:40",
+    "set_temp": 20,
+    "room_temp": 21.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T19:45:42",
+    "set_temp": 20,
+    "room_temp": 21.89999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T20:00:47",
+    "set_temp": 20,
+    "room_temp": 21.89999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T20:15:50",
+    "set_temp": 20,
+    "room_temp": 21.89999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T20:30:53",
+    "set_temp": 20,
+    "room_temp": 21.89999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T20:30:53",
+    "set_temp": 20,
+    "room_temp": 21.89999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T20:45:56",
+    "set_temp": 20,
+    "room_temp": 22.29999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T21:00:59",
+    "set_temp": 20,
+    "room_temp": 22.29999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T21:17:09",
+    "set_temp": 20,
+    "room_temp": 22.29999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T21:30:13",
+    "set_temp": 20,
+    "room_temp": 22.29999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T21:45:16",
+    "set_temp": 18,
+    "room_temp": 22.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T22:00:18",
+    "set_temp": 18,
+    "room_temp": 22.60000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T22:15:21",
+    "set_temp": 18,
+    "room_temp": 22.60000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T22:30:23",
+    "set_temp": 18,
+    "room_temp": 22.60000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T22:45:26",
+    "set_temp": 18,
+    "room_temp": 22.39999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T23:00:31",
+    "set_temp": 18,
+    "room_temp": 22.39999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T23:15:33",
+    "set_temp": 18,
+    "room_temp": 22.39999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T23:30:36",
+    "set_temp": 18,
+    "room_temp": 22.39999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-04T23:45:39",
+    "set_temp": 18,
+    "room_temp": 22.10000038,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T00:00:42",
+    "set_temp": 18,
+    "room_temp": 22.10000038,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T00:15:45",
+    "set_temp": 18,
+    "room_temp": 21.79999924,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T00:30:48",
+    "set_temp": 18,
+    "room_temp": 21.79999924,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T00:45:50",
+    "set_temp": 18,
+    "room_temp": 21.5,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T01:00:51",
+    "set_temp": 18,
+    "room_temp": 21.5,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T01:15:54",
+    "set_temp": 18,
+    "room_temp": 21.29999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T01:30:56",
+    "set_temp": 18,
+    "room_temp": 21.20000076,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T01:45:59",
+    "set_temp": 18,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T02:01:03",
+    "set_temp": 18,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T02:15:06",
+    "set_temp": 18,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T02:30:09",
+    "set_temp": 18,
+    "room_temp": 21,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T02:45:11",
+    "set_temp": 18,
+    "room_temp": 20.89999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T03:00:14",
+    "set_temp": 18,
+    "room_temp": 20.89999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T03:15:16",
+    "set_temp": 18,
+    "room_temp": 20.89999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T03:30:18",
+    "set_temp": 18,
+    "room_temp": 20.89999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T03:45:20",
+    "set_temp": 18,
+    "room_temp": 20.89999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T04:00:23",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T04:15:25",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T04:30:28",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T04:45:29",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T05:00:31",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T05:15:34",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T05:30:37",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T05:45:38",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T06:00:40",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T06:15:42",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T06:30:44",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T06:45:47",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T07:00:49",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T07:15:51",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T07:30:53",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T07:45:57",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T08:00:57",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T08:00:58",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T08:16:00",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T08:31:04",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T08:45:08",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T09:00:08",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T09:15:10",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T09:30:14",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T09:45:18",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T10:00:18",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T10:15:21",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T10:30:27",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T10:45:27",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T11:00:29",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T11:15:31",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T11:30:34",
+    "set_temp": 20,
+    "room_temp": 19.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-05T11:45:38",
+    "set_temp": 20,
+    "room_temp": 19.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-05T12:00:40",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T12:15:44",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T12:30:48",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T12:45:48",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T13:00:52",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T13:15:55",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T13:30:58",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T13:46:00",
+    "set_temp": 20,
+    "room_temp": 19.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-05T14:01:05",
+    "set_temp": 20,
+    "room_temp": 19.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-05T14:16:22",
+    "set_temp": 20,
+    "room_temp": 20.89999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T14:30:25",
+    "set_temp": 20,
+    "room_temp": 20.89999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T14:45:28",
+    "set_temp": 20,
+    "room_temp": 20.89999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T15:00:29",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T15:15:31",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T15:31:48",
+    "set_temp": 20,
+    "room_temp": 20.39999962,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T15:45:48",
+    "set_temp": 20,
+    "room_temp": 20.39999962,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T16:00:50",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T16:15:55",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T16:30:55",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T16:45:58",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T17:02:48",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T17:15:50",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T17:30:55",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T17:45:56",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T18:00:58",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T18:16:00",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T18:31:06",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T18:46:21",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T19:00:25",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T19:15:25",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T19:30:26",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T19:45:29",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T20:00:29",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T20:15:31",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T20:30:35",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T20:45:39",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T21:00:41",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T21:15:45",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T21:30:49",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T21:45:50",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T22:00:55",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T22:15:55",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T22:30:59",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T22:46:00",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T23:01:06",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T23:15:06",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T23:30:12",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-05T23:45:10",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T00:00:16",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T00:15:20",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T00:30:19",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T00:45:21",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T01:00:26",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T01:15:30",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T01:30:31",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T01:45:36",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T01:45:36",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T02:00:36",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T02:15:40",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T02:30:40",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T02:45:46",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T03:00:46",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T03:15:50",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T03:30:51",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T03:45:56",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T04:01:01",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T04:16:00",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T04:16:00",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T07:15:36",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T07:30:41",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T07:45:45",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T08:00:47",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T08:16:09",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T08:30:50",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T08:45:51",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T09:00:56",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T09:16:10",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T09:31:02",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T09:31:02",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T09:46:03",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T10:00:08",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T10:15:12",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T10:30:13",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T10:45:12",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T11:00:18",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T11:15:22",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T11:30:23",
+    "set_temp": 20,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-06T11:45:27",
+    "set_temp": 20,
+    "room_temp": 19.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-06T12:00:32",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T12:15:32",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T12:30:48",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T12:45:53",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T13:00:42",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T13:15:46",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T13:30:49",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T13:45:51",
+    "set_temp": 20,
+    "room_temp": 19.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-06T14:01:13",
+    "set_temp": 20,
+    "room_temp": 19.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-06T14:15:52",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T14:31:07",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T14:46:14",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T15:01:19",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T15:16:42",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T15:30:49",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T15:45:33",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T16:00:46",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T16:15:38",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T16:30:56",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T16:45:34",
+    "set_temp": 20,
+    "room_temp": 19.89999962,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-06T17:02:32",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T17:16:11",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T17:30:56",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T18:01:07",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T18:16:08",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T18:31:18",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T18:46:37",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T19:01:49",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T19:01:49",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T19:16:10",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T19:31:29",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T20:00:20",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T20:30:44",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T20:45:34",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T21:16:07",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T21:30:47",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T21:45:44",
+    "set_temp": 18,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T22:15:28",
+    "set_temp": 18,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T22:46:34",
+    "set_temp": 18,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T23:16:02",
+    "set_temp": 18,
+    "room_temp": 20.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T23:31:31",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-06T23:46:45",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T00:00:53",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T00:16:10",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T00:31:49",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T01:01:14",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T01:16:45",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T01:31:26",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T02:00:51",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T02:15:33",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T02:45:46",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T03:00:29",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T03:15:57",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T03:46:12",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T03:46:12",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T04:01:22",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T04:15:47",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T04:46:16",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T05:31:41",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T05:46:23",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T06:01:49",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T06:16:11",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T06:31:26",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T06:46:04",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T07:01:07",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T07:16:43",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T07:31:10",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T08:16:11",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T08:46:18",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T09:00:42",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T10:01:48",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T10:16:08",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T10:30:47",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T11:01:40",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T11:16:36",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T11:46:00",
+    "set_temp": 20,
+    "room_temp": 19.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-07T12:01:42",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T12:31:45",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T12:31:45",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T12:45:55",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T13:00:21",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T13:30:42",
+    "set_temp": 20,
+    "room_temp": 19.89999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-07T13:46:16",
+    "set_temp": 20,
+    "room_temp": 19.89999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-07T14:00:35",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T14:45:47",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T15:15:53",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T15:46:47",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T16:01:20",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T16:15:50",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T16:45:54",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T17:16:42",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T17:31:21",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T17:46:46",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T18:00:44",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T18:00:44",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T18:15:27",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T19:15:47",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T19:15:47",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T20:01:04",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T20:15:43",
+    "set_temp": 20,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T20:46:06",
+    "set_temp": 20,
+    "room_temp": 19.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-07T21:01:49",
+    "set_temp": 20,
+    "room_temp": 19.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-07T21:31:57",
+    "set_temp": 20,
+    "room_temp": 20.89999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T21:46:07",
+    "set_temp": 18,
+    "room_temp": 20.60000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T22:01:20",
+    "set_temp": 18,
+    "room_temp": 20.60000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T22:17:10",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T22:31:13",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T23:31:17",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-07T23:46:35",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T00:01:17",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T00:15:27",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T00:46:22",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T01:16:16",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T01:46:50",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T02:01:03",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T02:31:57",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T02:46:33",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T03:31:23",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T04:01:35",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T04:32:10",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T04:46:14",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T04:46:14",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T05:31:36",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T05:45:38",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T06:16:13",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T06:30:42",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T07:01:02",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T07:31:26",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T07:45:55",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T08:01:15",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T08:31:28",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T08:45:52",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T09:16:48",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T09:31:15",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T09:46:12",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T10:31:36",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T11:00:56",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T11:15:16",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T11:30:23",
+    "set_temp": 20,
+    "room_temp": 19.10000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:06",
+    "set_temp": 20,
+    "room_temp": 19.10000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-08T12:15:56",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T12:31:04",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T13:16:25",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T13:45:53",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T14:02:07",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T14:02:08",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T14:47:25",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T15:01:08",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T15:16:54",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T16:16:34",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T16:30:24",
+    "set_temp": 20,
+    "room_temp": 20.79999924,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T16:46:14",
+    "set_temp": 20,
+    "room_temp": 20.79999924,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T17:15:41",
+    "set_temp": 20,
+    "room_temp": 20.79999924,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T17:31:43",
+    "set_temp": 20,
+    "room_temp": 20.79999924,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T20:17:00",
+    "set_temp": 20,
+    "room_temp": 21.10000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T21:01:01",
+    "set_temp": 20,
+    "room_temp": 21.20000076,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T21:31:06",
+    "set_temp": 20,
+    "room_temp": 21.20000076,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T22:31:04",
+    "set_temp": 18,
+    "room_temp": 21.20000076,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-08T22:45:48",
+    "set_temp": 18,
+    "room_temp": 21.20000076,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T00:01:12",
+    "set_temp": 18,
+    "room_temp": 20.60000038,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T00:16:04",
+    "set_temp": 18,
+    "room_temp": 20.60000038,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T00:46:59",
+    "set_temp": 18,
+    "room_temp": 20.29999924,
+    "humidity": 68,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T01:01:36",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T01:30:54",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T02:01:35",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T03:01:30",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T03:15:46",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T03:45:18",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T03:45:18",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T04:30:35",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 67,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T04:45:43",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T05:31:10",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T05:45:47",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T06:00:33",
+    "set_temp": 18,
+    "room_temp": 18.89999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T06:30:44",
+    "set_temp": 18,
+    "room_temp": 18.89999962,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T06:45:58",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T07:00:54",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T07:15:45",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T08:01:03",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T08:15:49",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T08:30:50",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T08:45:35",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T10:16:14",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T10:30:45",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T11:01:40",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T11:16:21",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T11:31:02",
+    "set_temp": 20,
+    "room_temp": 18.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-09T12:31:20",
+    "set_temp": 20,
+    "room_temp": 19.5,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-09T13:31:01",
+    "set_temp": 20,
+    "room_temp": 19.70000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-09T13:46:15",
+    "set_temp": 20,
+    "room_temp": 19.70000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-09T14:00:43",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T15:01:35",
+    "set_temp": 20,
+    "room_temp": 20.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T15:16:19",
+    "set_temp": 20,
+    "room_temp": 20.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T16:01:10",
+    "set_temp": 20,
+    "room_temp": 20.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T16:46:35",
+    "set_temp": 20,
+    "room_temp": 20.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T17:46:50",
+    "set_temp": 20,
+    "room_temp": 21.20000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T18:31:17",
+    "set_temp": 20,
+    "room_temp": 21.39999962,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T18:45:30",
+    "set_temp": 20,
+    "room_temp": 21.39999962,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T19:31:18",
+    "set_temp": 20,
+    "room_temp": 21.39999962,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T20:31:24",
+    "set_temp": 20,
+    "room_temp": 21.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T21:31:06",
+    "set_temp": 20,
+    "room_temp": 21.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T22:01:38",
+    "set_temp": 18,
+    "room_temp": 21.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T22:16:18",
+    "set_temp": 18,
+    "room_temp": 21.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-09T23:31:07",
+    "set_temp": 18,
+    "room_temp": 21.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T00:16:06",
+    "set_temp": 18,
+    "room_temp": 21.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T00:30:29",
+    "set_temp": 18,
+    "room_temp": 21.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T01:01:26",
+    "set_temp": 18,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T01:15:47",
+    "set_temp": 18,
+    "room_temp": 21,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T01:46:30",
+    "set_temp": 18,
+    "room_temp": 20.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T02:00:39",
+    "set_temp": 18,
+    "room_temp": 20.79999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T02:46:11",
+    "set_temp": 18,
+    "room_temp": 20.60000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T03:46:43",
+    "set_temp": 18,
+    "room_temp": 20.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T04:31:35",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T04:46:02",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T05:00:16",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T05:45:54",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T07:00:36",
+    "set_temp": 18,
+    "room_temp": 19.70000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T07:45:46",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T08:00:36",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T08:15:39",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T08:30:42",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T08:30:42",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T08:46:28",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T09:01:16",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T10:16:25",
+    "set_temp": 18,
+    "room_temp": 19.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T10:46:20",
+    "set_temp": 18,
+    "room_temp": 19.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T11:01:22",
+    "set_temp": 18,
+    "room_temp": 19.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T11:15:54",
+    "set_temp": 18,
+    "room_temp": 19.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T11:31:08",
+    "set_temp": 20,
+    "room_temp": 19.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-10T11:45:31",
+    "set_temp": 20,
+    "room_temp": 19.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-10T12:30:28",
+    "set_temp": 20,
+    "room_temp": 20.79999924,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T14:45:45",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T15:00:40",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T17:31:20",
+    "set_temp": 20,
+    "room_temp": 21.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T18:16:18",
+    "set_temp": 20,
+    "room_temp": 21.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T18:31:23",
+    "set_temp": 20,
+    "room_temp": 22.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-10T22:32:04",
+    "set_temp": 18,
+    "room_temp": 22,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T00:01:29",
+    "set_temp": 18,
+    "room_temp": 21.10000038,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T00:16:00",
+    "set_temp": 18,
+    "room_temp": 21.10000038,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T00:31:23",
+    "set_temp": 18,
+    "room_temp": 21.10000038,
+    "humidity": 66,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T00:45:36",
+    "set_temp": 18,
+    "room_temp": 20.89999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T01:46:45",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T02:01:34",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T02:16:12",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T02:16:13",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T02:31:19",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T02:46:31",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:00",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T03:16:37",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T03:31:14",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T03:46:33",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T06:46:08",
+    "set_temp": 18,
+    "room_temp": 19.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T07:00:46",
+    "set_temp": 18,
+    "room_temp": 19.70000076,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T08:01:10",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T08:46:16",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T09:31:32",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T09:46:28",
+    "set_temp": 18,
+    "room_temp": 19.5,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T10:46:24",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T11:01:11",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T11:16:01",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T12:16:12",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T13:16:16",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T13:46:31",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T14:45:52",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T15:30:41",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T16:15:42",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T16:34:45",
+    "set_temp": 21,
+    "room_temp": "",
+    "humidity": "",
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-11T16:34:45",
+    "set_temp": 21,
+    "room_temp": "",
+    "humidity": "",
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-11T17:00:50",
+    "set_temp": 21,
+    "room_temp": 21,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T17:15:31",
+    "set_temp": 21,
+    "room_temp": 21.5,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T18:01:38",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T18:15:23",
+    "set_temp": 21,
+    "room_temp": 21,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T19:00:59",
+    "set_temp": 21,
+    "room_temp": 21.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T19:31:57",
+    "set_temp": 21,
+    "room_temp": 21.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T19:45:38",
+    "set_temp": 21,
+    "room_temp": 21.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T20:31:53",
+    "set_temp": 21,
+    "room_temp": 21.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T21:31:23",
+    "set_temp": 21,
+    "room_temp": 21.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T22:30:54",
+    "set_temp": 18,
+    "room_temp": 21.29999924,
+    "humidity": 65,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T23:15:35",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-11T23:46:38",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T00:31:36",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T00:46:07",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T01:46:25",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T02:46:19",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T04:15:31",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T05:00:55",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T05:45:38",
+    "set_temp": 18,
+    "room_temp": 18.89999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T06:16:34",
+    "set_temp": 18,
+    "room_temp": 18.89999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T06:32:14",
+    "set_temp": 18,
+    "room_temp": 18.89999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T08:16:45",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T08:46:58",
+    "set_temp": 18,
+    "room_temp": 18.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T08:46:59",
+    "set_temp": 18,
+    "room_temp": 18.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T09:01:13",
+    "set_temp": 18,
+    "room_temp": 18.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T09:30:53",
+    "set_temp": 18,
+    "room_temp": 18.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T10:01:22",
+    "set_temp": 18,
+    "room_temp": 18.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T10:45:27",
+    "set_temp": 18,
+    "room_temp": 18.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T11:15:51",
+    "set_temp": 18,
+    "room_temp": 18.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T11:46:23",
+    "set_temp": 21,
+    "room_temp": 18.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-12T12:16:12",
+    "set_temp": 21,
+    "room_temp": 20,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-12T12:45:59",
+    "set_temp": 21,
+    "room_temp": 20.89999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-12T13:16:15",
+    "set_temp": 21,
+    "room_temp": 20.89999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-12T13:46:41",
+    "set_temp": 21,
+    "room_temp": 21.39999962,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T14:15:55",
+    "set_temp": 21,
+    "room_temp": 21.39999962,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T15:01:00",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T15:31:19",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T16:01:54",
+    "set_temp": 21,
+    "room_temp": 21.20000076,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T16:31:44",
+    "set_temp": 21,
+    "room_temp": 21,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T17:01:29",
+    "set_temp": 21,
+    "room_temp": 20.79999924,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-12T17:47:08",
+    "set_temp": 21,
+    "room_temp": 21.39999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T18:16:19",
+    "set_temp": 21,
+    "room_temp": 21,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T18:45:54",
+    "set_temp": 21,
+    "room_temp": 21,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T19:32:31",
+    "set_temp": 21,
+    "room_temp": 21.89999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T19:46:14",
+    "set_temp": 21,
+    "room_temp": 21.89999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T20:02:40",
+    "set_temp": 21,
+    "room_temp": 21.39999962,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T20:16:54",
+    "set_temp": 21,
+    "room_temp": 21.39999962,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T21:00:52",
+    "set_temp": 21,
+    "room_temp": 21.20000076,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T22:46:23",
+    "set_temp": 18,
+    "room_temp": 20.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T23:17:06",
+    "set_temp": 18,
+    "room_temp": 20.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-12T23:47:07",
+    "set_temp": 18,
+    "room_temp": 20.60000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T00:01:07",
+    "set_temp": 18,
+    "room_temp": 20.60000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T02:45:45",
+    "set_temp": 18,
+    "room_temp": 19.39999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T04:16:19",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T04:46:40",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T05:46:34",
+    "set_temp": 18,
+    "room_temp": 18.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T06:02:10",
+    "set_temp": 18,
+    "room_temp": 18.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T06:16:02",
+    "set_temp": 18,
+    "room_temp": 18.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T07:15:55",
+    "set_temp": 18,
+    "room_temp": 18.60000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T07:46:23",
+    "set_temp": 18,
+    "room_temp": 18.60000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T08:01:26",
+    "set_temp": 18,
+    "room_temp": 18.60000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T10:15:50",
+    "set_temp": 18,
+    "room_temp": 18.60000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T11:00:49",
+    "set_temp": 18,
+    "room_temp": 18.20000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T11:31:29",
+    "set_temp": 21,
+    "room_temp": 18.20000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-13T11:45:50",
+    "set_temp": 21,
+    "room_temp": 18.20000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-13T12:17:00",
+    "set_temp": 21,
+    "room_temp": 19.5,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-13T12:32:02",
+    "set_temp": 21,
+    "room_temp": 20.10000038,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-13T16:16:29",
+    "set_temp": 21,
+    "room_temp": 20.79999924,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-13T16:16:30",
+    "set_temp": 21,
+    "room_temp": 20.79999924,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-13T16:31:21",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T17:16:54",
+    "set_temp": 21,
+    "room_temp": 21,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T17:46:49",
+    "set_temp": 21,
+    "room_temp": 21,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T18:46:31",
+    "set_temp": 21,
+    "room_temp": 20.79999924,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-13T20:01:18",
+    "set_temp": 21,
+    "room_temp": 21.29999924,
+    "humidity": 56,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T21:00:44",
+    "set_temp": 21,
+    "room_temp": 20.89999962,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-13T21:46:44",
+    "set_temp": 18,
+    "room_temp": 21.5,
+    "humidity": 56,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T22:46:32",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T22:46:33",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-13T23:01:37",
+    "set_temp": 18,
+    "room_temp": 20.39999962,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T00:02:16",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T00:17:07",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T00:31:39",
+    "set_temp": 18,
+    "room_temp": 19.70000076,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T01:45:55",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T02:16:07",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T02:45:49",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T03:16:34",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T03:30:51",
+    "set_temp": 18,
+    "room_temp": 18.89999962,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T04:01:22",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T04:16:01",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T04:46:16",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T05:16:51",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T06:31:17",
+    "set_temp": 18,
+    "room_temp": 18.5,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T07:00:09",
+    "set_temp": 18,
+    "room_temp": 18.5,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T14:01:39",
+    "set_temp": 21,
+    "room_temp": 21.29999924,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T14:15:51",
+    "set_temp": 21,
+    "room_temp": 21.29999924,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T14:30:48",
+    "set_temp": 21,
+    "room_temp": 20.89999962,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-14T15:15:45",
+    "set_temp": 21,
+    "room_temp": 21.20000076,
+    "humidity": 54,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T17:16:28",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T17:31:24",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T17:45:58",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T18:00:37",
+    "set_temp": 21,
+    "room_temp": 20.89999962,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-14T18:15:43",
+    "set_temp": 21,
+    "room_temp": 20.89999962,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-14T19:45:35",
+    "set_temp": 21,
+    "room_temp": 20.70000076,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-14T20:31:56",
+    "set_temp": 21,
+    "room_temp": 20.79999924,
+    "humidity": 55,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-14T21:17:00",
+    "set_temp": 21,
+    "room_temp": 21.20000076,
+    "humidity": 54,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T21:31:08",
+    "set_temp": 21,
+    "room_temp": 21.20000076,
+    "humidity": 54,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-14T23:46:32",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T00:01:28",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T00:15:43",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T00:15:44",
+    "set_temp": 18,
+    "room_temp": 19.10000038,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T01:15:31",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T01:30:48",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T01:45:36",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T02:30:44",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T02:46:08",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T03:01:24",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T03:16:15",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T03:31:29",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T03:46:19",
+    "set_temp": 18,
+    "room_temp": 18,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T04:01:23",
+    "set_temp": 18,
+    "room_temp": 18,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T04:16:02",
+    "set_temp": 18,
+    "room_temp": 18,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T05:01:10",
+    "set_temp": 18,
+    "room_temp": 18,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T05:15:49",
+    "set_temp": 18,
+    "room_temp": 17.89999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-15T06:31:52",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T06:45:52",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T07:45:58",
+    "set_temp": 18,
+    "room_temp": 18.20000076,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T08:47:21",
+    "set_temp": 18,
+    "room_temp": 18.20000076,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T09:31:01",
+    "set_temp": 18,
+    "room_temp": 18.39999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T09:46:04",
+    "set_temp": 18,
+    "room_temp": 18.39999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T10:31:13",
+    "set_temp": 18,
+    "room_temp": 18.10000038,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T10:31:13",
+    "set_temp": 18,
+    "room_temp": 18.10000038,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T12:01:48",
+    "set_temp": 21,
+    "room_temp": 19.20000076,
+    "humidity": 58,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-15T12:16:51",
+    "set_temp": 21,
+    "room_temp": 19.89999962,
+    "humidity": 57,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-15T12:46:33",
+    "set_temp": 21,
+    "room_temp": 20.60000038,
+    "humidity": 56,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-15T13:16:27",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 56,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T14:47:00",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T16:31:03",
+    "set_temp": 20,
+    "room_temp": 20.89999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T17:00:39",
+    "set_temp": 20,
+    "room_temp": 20.39999962,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T18:00:46",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T18:16:11",
+    "set_temp": 20,
+    "room_temp": 20,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T18:46:13",
+    "set_temp": 20,
+    "room_temp": 19.89999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-15T19:16:08",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T20:00:49",
+    "set_temp": 20,
+    "room_temp": 20.70000076,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T21:31:16",
+    "set_temp": 20,
+    "room_temp": 20.5,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T22:31:48",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T23:00:41",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T23:00:42",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-15T23:46:13",
+    "set_temp": 18,
+    "room_temp": 20,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T00:31:36",
+    "set_temp": 18,
+    "room_temp": 19.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T01:16:14",
+    "set_temp": 18,
+    "room_temp": 19.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T01:46:49",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T02:31:22",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T04:01:06",
+    "set_temp": 18,
+    "room_temp": 18.79999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T05:16:05",
+    "set_temp": 18,
+    "room_temp": 18.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T05:46:22",
+    "set_temp": 18,
+    "room_temp": 18.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T06:16:02",
+    "set_temp": 18,
+    "room_temp": 18.5,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T09:15:38",
+    "set_temp": 18,
+    "room_temp": 18.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T10:01:01",
+    "set_temp": 18,
+    "room_temp": 18.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T11:01:32",
+    "set_temp": 18,
+    "room_temp": 18.39999962,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T12:16:32",
+    "set_temp": 20,
+    "room_temp": 19.60000038,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-16T12:31:55",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T13:17:20",
+    "set_temp": 20,
+    "room_temp": 19.70000076,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-16T14:01:11",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T15:16:01",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T16:46:49",
+    "set_temp": 21,
+    "room_temp": 20.20000076,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-16T17:46:11",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T18:01:55",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T18:17:31",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T18:30:22",
+    "set_temp": 21,
+    "room_temp": 21.10000038,
+    "humidity": 62,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T18:46:37",
+    "set_temp": 21,
+    "room_temp": 20.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-16T20:46:23",
+    "set_temp": 20,
+    "room_temp": 21.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T21:15:40",
+    "set_temp": 20,
+    "room_temp": 21.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T22:01:38",
+    "set_temp": 18,
+    "room_temp": 21.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T22:30:42",
+    "set_temp": 18,
+    "room_temp": 21.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T23:04:11",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:04:11",
+    "set_temp": 20,
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T23:04:12",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:04:13",
+    "set_temp": 20,
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T23:09:51",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:10:45",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:15:17",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:16:13",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:16:48",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 64,
+    "override": "true",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-16T23:21:36",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:27:14",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:28:24",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:35:39",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:40:52",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:41:47",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:47:27",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:53:09",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:54:05",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-16T23:59:29",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-17T00:01:01",
+    "set_temp": 20,
+    "room_temp": 20.60000038,
+    "humidity": 64,
+    "override": "true",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T00:05:09",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "false",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-17T01:00:37",
+    "set_temp": 18,
+    "room_temp": 19.89999962,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T02:16:05",
+    "set_temp": 18,
+    "room_temp": 19.79999924,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T03:01:48",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T04:16:00",
+    "set_temp": 18,
+    "room_temp": 19.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T05:01:36",
+    "set_temp": 18,
+    "room_temp": 18.79999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T05:47:23",
+    "set_temp": 18,
+    "room_temp": 18.79999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T06:16:28",
+    "set_temp": 18,
+    "room_temp": 18.79999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T07:46:12",
+    "set_temp": 18,
+    "room_temp": 18.39999962,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T09:46:18",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T10:02:21",
+    "set_temp": 18,
+    "room_temp": 18.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T10:30:51",
+    "set_temp": 18,
+    "room_temp": 18.10000038,
+    "humidity": 64,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T12:16:07",
+    "set_temp": 20,
+    "room_temp": 19.39999962,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-17T14:45:21",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T15:46:16",
+    "set_temp": 20,
+    "room_temp": 19.89999962,
+    "humidity": "",
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-17T17:16:01",
+    "set_temp": 20,
+    "room_temp": 19.79999924,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-17T17:32:21",
+    "set_temp": 20,
+    "room_temp": 20.20000076,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T18:15:53",
+    "set_temp": 20,
+    "room_temp": 20.29999924,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T18:46:57",
+    "set_temp": 21,
+    "room_temp": "",
+    "humidity": "",
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-17T18:47:15",
+    "set_temp": 21,
+    "room_temp": "",
+    "humidity": "",
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-17T20:45:26",
+    "set_temp": 21,
+    "room_temp": 20.79999924,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-17T22:01:44",
+    "set_temp": 18,
+    "room_temp": 21,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T23:15:51",
+    "set_temp": 18,
+    "room_temp": 21,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T23:32:19",
+    "set_temp": 18,
+    "room_temp": 21,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T23:38:05",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-17T23:43:20",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-17T23:45:48",
+    "set_temp": 21,
+    "room_temp": 21,
+    "humidity": 63,
+    "override": "true",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-17T23:48:32",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-17T23:53:41",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-17T23:54:53",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-17T23:54:54",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:00:22",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:01:54",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:06:28",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:07:23",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:12:38",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:18:01",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:18:55",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:24:23",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:29:46",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:35:09",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:36:24",
+    "set_temp": "",
+    "room_temp": "",
+    "humidity": "",
+    "override": "true",
+    "working_hours": "false",
+    "heating": ""
+  },
+  {
+    "timestamp": "2025-09-18T00:46:04",
+    "set_temp": 18,
+    "room_temp": 21.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T01:47:15",
+    "set_temp": 18,
+    "room_temp": 20.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T02:46:12",
+    "set_temp": 18,
+    "room_temp": 20.10000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T04:16:29",
+    "set_temp": 18,
+    "room_temp": 19.60000038,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T05:16:41",
+    "set_temp": 18,
+    "room_temp": 19.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T06:31:07",
+    "set_temp": 18,
+    "room_temp": 19.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T06:31:07",
+    "set_temp": 18,
+    "room_temp": 19.20000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T07:02:18",
+    "set_temp": 18,
+    "room_temp": 18.79999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T08:47:00",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T09:16:10",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T10:16:47",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T10:31:42",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T10:31:43",
+    "set_temp": 18,
+    "room_temp": 18.70000076,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T11:15:56",
+    "set_temp": 18,
+    "room_temp": 18.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "false",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T11:31:30",
+    "set_temp": 21,
+    "room_temp": 18.29999924,
+    "humidity": 63,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-18T12:31:53",
+    "set_temp": 21,
+    "room_temp": 20.39999962,
+    "humidity": 60,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-18T13:01:45",
+    "set_temp": 21,
+    "room_temp": 20.89999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-18T13:46:14",
+    "set_temp": 21,
+    "room_temp": 20.89999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-18T14:01:14",
+    "set_temp": 21,
+    "room_temp": 20.89999962,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "true"
+  },
+  {
+    "timestamp": "2025-09-18T14:45:51",
+    "set_temp": 20,
+    "room_temp": 21.29999924,
+    "humidity": 59,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T16:31:28",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  },
+  {
+    "timestamp": "2025-09-18T17:17:01",
+    "set_temp": 20,
+    "room_temp": 21,
+    "humidity": 61,
+    "override": "false",
+    "working_hours": "true",
+    "heating": "false"
+  }
+]
