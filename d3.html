@@ -1,5 +1,8 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
+
 
 <head>
   <meta charset="UTF-8" />
@@ -64,12 +67,19 @@
       cursor: pointer;
     }
 
-    .legend-color {
+
+
+    /* LEGEND: Use icons instead of color squares */
+
+    .legend-icon {
       width: 14px;
       height: 14px;
-      border-radius: 3px;
-      display: inline-block;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
     }
+
+
 
     .legend-item.inactive {
       opacity: 0.5;
@@ -130,7 +140,10 @@
       color: white;
     }
 
+
+
     /* tooltip */
+
     #tooltip {
       position: absolute;
       pointer-events: none;
@@ -143,17 +156,33 @@
       transition: opacity 120ms ease;
     }
 
+
+
     /* brush selection */
+
     .brush .selection {
       fill: rgba(11, 94, 215, 0.2);
       stroke: #0b5ed7;
     }
+
+    /* Cursor styles applied to the SVG node */
+    .tooltip-enabled {
+      cursor: crosshair;
+    }
+
+    .pan-enabled-cursor {
+      cursor: grab !important;
+    }
   </style>
+
 </head>
+
+
 
 <body>
   <div id="tooltip"></div>
   <h2>Line Chart (D3.js)</h2>
+
 
   <div class="container">
     <div class="chart-box">
@@ -165,8 +194,6 @@
         <button data-unit="year">Year</button>
       </div>
       <svg id="chart" width="1050" height="550"></svg>
-
-
       <div class="toolbar">
         <button onclick="zoomBy(1.2)">+</button>
         <button onclick="zoomBy(0.8)">-</button>
@@ -174,9 +201,12 @@
         <button onclick="downloadSVG()">⬇️</button>
       </div>
     </div>
-
     <!-- Controls Sidebar -->
     <div class="controls">
+      <div id="date-picker-container" style="padding-bottom: 10px;">
+        <label for="dataDate">Date:</label>
+        <input type="date" id="dataDate" style="width: 100%; padding: 5px;border: 1px solid #ddd; border-radius: 4px;">
+      </div>
       <div id="custom-legend" class="legend-box"></div>
     </div>
   </div>
@@ -184,7 +214,7 @@
 
   <script>
     (async () => {
-      // --- Setup svg + scales + groups
+      // --- Setup svg + scales + groups 
       const svg = d3.select("#chart");
       const widthTotal = +svg.attr("width");
       const heightTotal = +svg.attr("height");
@@ -196,38 +226,24 @@
       const xAxisG = mainG.append("g").attr("transform", `translate(0,${height})`);
       const yAxisG = mainG.append("g");
       const y2AxisG = mainG.append("g").attr("transform", `translate(${width},0)`);
+      // Chart content wrapper 
+      const chartContent = mainG.append("g").attr("class", "chart-content");
+      const linesLayer = chartContent.append("g").attr("class", "lines");
+      const markersLayer = chartContent.append("g").attr("class", "markers");
+      const dotsLayer = chartContent.append("g").attr("class", "dots");
 
-      // axis labels
-      svg
-        .append("text")
-        .attr("x", margin.left + width / 2)
-        .attr("y", margin.top + height + 55)
-        .attr("text-anchor", "middle")
-        .attr("fill", "#333")
-        .text("Date & Time");
-      svg
-        .append("text")
-        .attr("x", 18)
-        .attr("y", margin.top + height / 2)
-        .attr("text-anchor", "middle")
-        .attr(
-          "transform",
-          `rotate(-90,18,${margin.top + height / 2})`
-        )
-        .attr("fill", "#333")
-        .text("Temperature (°C)");
-      svg
-        .append("text")
-        .attr("x", margin.left + width + 48)
-        .attr("y", margin.top + height / 2)
-        .attr("text-anchor", "middle")
-        .attr(
-          "transform",
-          `rotate(-90,${margin.left + width + 48},${margin.top + height / 2})`
-        )
-        .attr("fill", "#333")
-        .text("Humidity (%)");
 
+
+      // Axis labels For Temperatue, Humidity and Dat & Time  
+
+      svg
+        .append("text").attr("x", margin.left + width / 2).attr("y", margin.top + height + 75).attr("text-anchor", "middle").attr("fill", "#333").text("Date & Time");
+      svg
+        .append("text").attr("x", 18).attr("y", margin.top + height / 2).attr("text-anchor", "middle").attr("transform", `rotate(-90,18,${margin.top + height / 2})`).attr("fill", "#333").text("Temperature (°C)");
+      svg
+        .append("text").attr("x", margin.left + width + 48).attr("y", margin.top + height / 2).attr("text-anchor", "middle").attr("transform", `rotate(-90,${margin.left + width + 48},${margin.top + height / 2})`).attr("fill", "#333").text("Humidity (%)");
+
+      // Scales 
       const x = d3.scaleTime().range([0, width]);
       const y = d3.scaleLinear().range([height, 0]);
       const y2 = d3.scaleLinear().range([height, 0]);
@@ -242,28 +258,29 @@
         working: "black"
       };
 
-      // tooltip
+      // tooltip 
       const tooltip = d3.select("#tooltip");
 
-      // raw data from sources
+      // raw data from sources 
       const [records, weather] = await Promise.all([
         fetch("data.json").then(r => r.json()),
-        // get outside temperatures for the date range (user previously used this endpoint)
+        // get outside temperatures for the date range (user previously used this endpoint) 
         fetch(`https://archive-api.open-meteo.com/v1/archive?latitude=55.8642&longitude=-4.2518&start_date=2025-09-04&end_date=2025-09-18&hourly=temperature_2m`).then(r => r.json()).catch(_ => null)
       ]);
-
-      // --- Parse records: assume each record has timestamp (ISO or parseable), room_temp, set_temp, humidity, heating, override, working_hours
-      // normalize timestamps
+      // --- Parse records: assume each record has timestamp (ISO or parseable), room_temp, set_temp, humidity, heating, override, working_hours 
+      // normalize timestamps 
       records.forEach(r => {
-        // if timestamp is numeric / seconds / ms: try to parse robustly
+        // if timestamp is numeric / seconds / ms: try to parse robustly 
         r._ts = new Date(r.timestamp);
         if (Number.isNaN(r._ts.getTime())) {
-          // try other keys or assume ISO string
+          // try other keys or assume ISO string 
           r._ts = new Date(String(r.timestamp));
         }
       });
 
-      // prepare outside data from weather (avoid duplication; weather.hourly arrays used directly)
+
+
+      // prepare outside data from weather (avoid duplication; weather.hourly arrays used directly) 
       const outside = [];
       if (weather && weather.hourly && weather.hourly.time) {
         for (let i = 0; i < weather.hourly.time.length; i++) {
@@ -271,38 +288,39 @@
         }
       }
 
-      // Build arrays for datasets from records
+
+
+      // Build arrays for datasets from records 
+
       const humidity = [], room = [], setT = [], heaterMarkers = [], overrideMarkers = [], workingDots = [];
-
-      // Track heater transitions properly (ON/OFF changes)
+      // Track heater transitions properly (ON/OFF changes) 
       let lastHeaterState = null;
-      for (const r of records) {
-        // skip if no timestamp
-        if (!r._ts || isNaN(r._ts.getTime())) continue;
 
+      for (const r of records) {
+        // skip if no timestamp 
+        if (!r._ts || isNaN(r._ts.getTime())) continue;
         if (r.humidity !== null && r.humidity !== undefined) humidity.push({ x: r._ts.toISOString(), y: +r.humidity, raw: r });
         if (r.room_temp !== null && r.room_temp !== undefined) room.push({ x: r._ts.toISOString(), y: +r.room_temp, raw: r });
         if (r.set_temp !== null && r.set_temp !== undefined) setT.push({ x: r._ts.toISOString(), y: +r.set_temp, raw: r });
 
-        // heater state changes detection: treat r.heating as truthy "true"/"false" string or boolean
-        const heating = (typeof r.heating === "string") ? (r.heating === "true") : Boolean(r.heating);
+        // heater state changes detection: treat r.heating as truthy "true"/"false" string or boolean 
+        const heating = (typeof r.heating === "string") ? (r.heating === "true") : Boolean(r.heating)
         if (lastHeaterState === null) {
           lastHeaterState = heating;
         } else if (heating !== lastHeaterState) {
-          // push marker at this timestamp. Use room_temp value if present, else set_temp
+          // push marker at this timestamp. Use room_temp value if present, else set_temp 
           const yVal = (r.room_temp !== null && r.room_temp !== undefined) ? +r.room_temp : ((r.set_temp !== null && r.set_temp !== undefined) ? +r.set_temp : 0);
           heaterMarkers.push({ x: r._ts.toISOString(), y: yVal, state: heating, raw: r });
           lastHeaterState = heating;
         }
+        // override detection (string or boolean) 
 
-        // override detection (string or boolean)
         const ov = (typeof r.override === "string") ? (r.override === "true") : Boolean(r.override);
         if (ov) {
           const yVal = (r.room_temp !== null && r.room_temp !== undefined) ? +r.room_temp : ((r.set_temp !== null && r.set_temp !== undefined) ? +r.set_temp : 0);
           overrideMarkers.push({ x: r._ts.toISOString(), y: yVal, raw: r });
         }
-
-        // working hours + heating together (if flag exists)
+        // working hours + heating together (if flag exists) 
         const working = (typeof r.working_hours === "string") ? (r.working_hours === "true") : Boolean(r.working_hours);
         if (working && heating) {
           const yVal = (r.room_temp !== null && r.room_temp !== undefined) ? +r.room_temp : ((r.set_temp !== null && r.set_temp !== undefined) ? +r.set_temp : 0);
@@ -310,52 +328,57 @@
         }
       }
 
-      // --- Helper to convert arrays to d3-friendly sorted arrays
+
+
+      // --- Helper to convert arrays to d3-friendly sorted arrays 
+
       function sortByX(a, b) { return new Date(a.x) - new Date(b.x); }
       humidity.sort(sortByX); room.sort(sortByX); setT.sort(sortByX); outside.sort(sortByX);
       heaterMarkers.sort(sortByX); overrideMarkers.sort(sortByX); workingDots.sort(sortByX);
 
-      // detect list of dates available in records (for Hours view default)
+      // detect list of dates available in records (for Hours view default) 
       const recordDates = Array.from(new Set(records.map(r => {
         if (!r._ts || isNaN(r._ts.getTime())) return null;
         const d = new Date(r._ts.getTime()); d.setHours(0, 0, 0, 0);
         return d.toISOString();
       }).filter(Boolean))).sort();
-
-      // default hour day -> first date's day
+      // default hour day -> first date's day 
       let selectedDayISO = recordDates.length ? recordDates[0] : null;
+      const minDate = recordDates.length ? recordDates[0].substring(0, 10) : '';
+      const maxDate = recordDates.length ? recordDates[recordDates.length - 1].substring(0, 10) : '';
 
-      // global visibility map for legend toggles
-      const visibility = {
-        humidity: true,
-        room: true,
-        setT: true,
-        outside: true,
-        heater: true,
-        override: true,
-        working: true
-      };
+      // Set min/max attributes on the HTML date input element 
+      document.getElementById('dataDate').setAttribute('min', minDate);
+      document.getElementById('dataDate').setAttribute('max', maxDate);
 
-      // initial x,y domains (full span)
+      // global visibility map for legend toggles 
+      const visibility = { humidity: true, room: true, setT: true, outside: true, heater: true, override: true, working: true };
+
+      // initial x,y domains (full span) 
       const allPoints = [...humidity, ...room, ...setT, ...outside, ...heaterMarkers, ...overrideMarkers, ...workingDots];
-      if (allPoints.length === 0) return; // nothing to draw
-
+      if (!allPoints.length) return;
       x.domain(d3.extent(allPoints, d => new Date(d.x)));
-      // primary y domain based on temps + outside
+
+      // primary y domain based on temps + outside 
       y.domain([0, d3.max([...room, ...setT, ...outside], d => d.y) + 2]);
       y2.domain([0, d3.max(humidity, d => d.y) + 5]);
 
-      // axis render helper (uses unit and optionally a specific day for HOURS)
+      // --- Axis and Draw Helpers --- 
+      let currentXScale = x.copy();
+      let isInitialLoad = true; // It checks the intial animation i started it won't repreat again 
+
+      // axis render helper (uses unit and optionally a specific day for HOURS) 
       function renderAxes(unit, dayIso) {
-        // unit: 'hour','day','week','month','year'
+        let currentScale = x;
+        if (unit === 'hour' && dayIso) {
+          const start = new Date(dayIso); start.setHours(0, 0, 0, 0);
+          const end = new Date(start.getTime() + 24 * 3600 * 1000);
+          x.domain([start, end]);
+        }
+
+        // unit: 'hour','day','week','month','year' 
         let axis;
         if (unit === 'hour') {
-          // For Hours, if dayIso provided we slice x.domain to that day from 00:00 to 23:59
-          if (dayIso) {
-            const start = new Date(dayIso);
-            const end = new Date(start.getTime() + 24 * 3600 * 1000);// time stamp from 00:00 t0 24:00 
-            x.domain([start, end]);
-          }
           axis = d3.axisBottom(x)
             .ticks(d3.timeHour.every(1))
             .tickFormat(d3.timeFormat(" %b:%d:%H:%M"));
@@ -366,12 +389,12 @@
         } else if (unit === 'week') {
           axis = d3.axisBottom(x)
             .ticks(d3.timeWeek.every(1))
-            .tickFormat(d => "W" + d3.timeFormat("%U")(d));
+            .tickFormat(d => "W" + d3.timeFormat("%b:%d")(d));
         } else if (unit === 'month') {
           axis = d3.axisBottom(x)
             .ticks(d3.timeMonth.every(1))
             .tickFormat(d3.timeFormat("%b"));
-        } else { // year
+        } else { // year 
           axis = d3.axisBottom(x)
             .ticks(d3.timeYear.every(1))
             .tickFormat(d3.timeFormat("%Y"));
@@ -381,33 +404,102 @@
           .style("text-anchor", "end")
           .attr("transform", "rotate(-35)")
           .attr("dx", "-6")
-          .attr("dy", "8");
+          .attr("dy", "8")
+          .style("cursor", "pointer")
+          .on("click", (event, d) => {
+            // navigate to clicked date (center that date/day) 
+            navigateToDate(new Date(d));
+          });
+        // Function to navigate from x-axis tick click → hours of that date
+        function navigateToDate(clickedDate) {
+          const startOfDay = new Date(clickedDate);
+          startOfDay.setHours(0, 0, 0, 0);
+
+          selectedDayISO = startOfDay.toISOString();
+          currentUnit = 'hour';
+          prepareAndDraw('hour', selectedDayISO);
+
+          const btns = d3.selectAll(".time-buttons button");
+          btns.classed("active", false);
+          d3.select(".time-buttons button[data-unit='hour']").classed("active", true);
+        }
 
         yAxisG.call(d3.axisLeft(y));
         y2AxisG.call(d3.axisRight(y2));
       }
 
-      // --- drawing layers: give predictable class names
-      const layer = mainG.append("g").attr("class", "layers");
-      const linesLayer = layer.append("g").attr("class", "lines-layer");
-      const markersLayer = layer.append("g").attr("class", "markers-layer");
-      const invisibleDotsLayer = layer.append("g").attr("class", "dots-layer"); // invisible dots for tooltip hover
 
-      // line generator builder
+
+
+      // line generator builder 
       const makeLine = (yScale) => d3.line()
         .defined(d => d && d.y !== null && d.y !== undefined && !isNaN(d.y))
         .x(d => x(new Date(d.x)))
         .y(d => yScale(d.y))
-        .curve(d3.curveMonotoneX); // smooth-ish
+      //.curve(d3.curveMonotoneX); // smooth-ish 
+      // === ZOOM BEHAVIOR === 
+      let isPanEnabled = false; // Initial state: Pan disabled, Tooltip enabled 
+      const zoomBehavior = d3.zoom()
+        .scaleExtent([1, 32])
+        .translateExtent([[0, 0], [width, height]])
+        .extent([[0, 0], [width, height]])
+        .filter(event => isPanEnabled) // ONLY pan if isPanEnabled is true 
+        .on("zoom", zoomed);
 
-      // --- TOOLTIP FOCUS ELEMENTS ---
+      function zoomed(event) {
+        currentXScale = event.transform.rescaleX(x);
 
-      // Focus elements for the tooltip
+        // Detect zoom scale
+        const scale = event.transform.k;
+
+        let axis;
+        if (currentUnit === 'hour') {
+          if (scale > 20) {
+            // Very zoomed in → show seconds
+            axis = d3.axisBottom(currentXScale)
+              .ticks(d3.timeSecond.every(10))
+              .tickFormat(d3.timeFormat("%H:%M:%S"));
+          } else if (scale > 5) {
+            // Medium zoom → show minutes
+            axis = d3.axisBottom(currentXScale)
+              .ticks(d3.timeMinute.every(5))
+              .tickFormat(d3.timeFormat("%H:%M"));
+          } else {
+            // Default hourly ticks
+            axis = d3.axisBottom(currentXScale)
+              .ticks(d3.timeHour.every(1))
+              .tickFormat(d3.timeFormat("%H:%M"));
+          }
+        } else if (currentUnit === 'day') {
+          if (scale > 8) {
+            axis = d3.axisBottom(currentXScale)
+              .ticks(d3.timeHour.every(1))
+              .tickFormat(d3.timeFormat("%b %d %H:%M"));
+          } else {
+            axis = d3.axisBottom(currentXScale)
+              .ticks(d3.timeDay.every(1))
+              .tickFormat(d3.timeFormat("%b %d"));
+          }
+        } else {
+          // fallback: use default
+          axis = d3.axisBottom(currentXScale);
+        }
+
+        xAxisG.call(axis)
+          .selectAll("text")
+          .style("text-anchor", "end")
+          .attr("transform", "rotate(-35)")
+          .attr("dx", "-6")
+          .attr("dy", "8");
+      }
+      svg.call(zoomBehavior);
+
+      // --- TOOLTIP FOCUS ELEMENTS --- 
+      // Focus elements for the tooltip 
       const focus = mainG.append("g")
         .attr("class", "focus")
         .style("display", "none");
-
-      // Vertical line that appears on hover
+      // Vertical line that appears on hover 
       focus.append("line")
         .attr("class", "focus-line")
         .attr("y1", 0)
@@ -415,79 +507,28 @@
         .attr("stroke", "#333")
         .attr("stroke-width", 1)
         .attr("stroke-dasharray", "3,3");
+      // Circle marker for a specific line data point (uses room temp y-position) 
 
-      // Circle marker for a specific line data point (uses room temp y-position)
       const focusCircle = focus.append("circle")
         .attr("r", 5)
         .attr("fill", colorMap.room)
         .attr("stroke", "white")
         .attr("stroke-width", 1.5);
-      // === BRUSH ZOOM ===
-      const brush = d3
-        .brushX()
-        .extent([
-          [0, 0],
-          [width, height],
-        ])
-        .on("end", brushed);
+      // draw function that rebuilds lines & markers for given filtered arrays 
 
-      const brushG = mainG.append("g").attr("class", "brush").call(brush);
-
-      function brushed(event) {
-        if (!event.selection) return;
-        const [x0, x1] = event.selection.map(x.invert);
-        // Switch to hour-level detail
-        currentUnit = "hour";
-        const startDay = new Date(x0);
-        startDay.setHours(0, 0, 0, 0);
-        selectedDayISO = startDay.toISOString();
-
-        // Force domain to brushed selection instead of whole day
-        x.domain([x0, x1]);
-
-        renderAxes("hour", selectedDayISO);
-        prepareAndDraw("hour", selectedDayISO);
-      }
-      // Double-click resets zoom
-      svg.on("dblclick", () => {
-        x.domain(d3.extent(allPoints, (d) => new Date(d.x)));
-        renderAxes(currentUnit, null);
-        prepareAndDraw(currentUnit, null);
-      });
-
-
-
-      // draw function that rebuilds lines & markers for given filtered arrays
       function drawAll({ humidityData, roomData, setTData, outsideData, heaterData, overrideData, workingData }) {
-        // clear existing content
+        // clear existing content 
         linesLayer.selectAll("*").remove();
         markersLayer.selectAll("*").remove();
-
-
-        // create datasets array with metadata order (same order used for legend indexes)
+        // create datasets array with metadata order (same order used for legend indexes) 
         const datasets = [
           { key: "humidity", name: "Humidity (%)", data: humidityData, color: colorMap.humidity, yScale: y2, type: "line" },
           { key: "room", name: "Room Temp (°C)", data: roomData, color: colorMap.room, yScale: y, type: "line" },
           { key: "setT", name: "Set Temp (°C)", data: setTData, color: colorMap.setT, yScale: y, type: "line" },
           { key: "outside", name: "Outside Temp (°C)", data: outsideData, color: colorMap.outside, yScale: y, type: "line" },
-          // markers are created separately but included in legend toggles
-          { key: "heater", name: "Heater State Change", data: heaterData, color: colorMap.heater, yScale: y, type: "marker" },
-          { key: "override", name: "Override Active", data: overrideData, color: colorMap.override, yScale: y, type: "marker" },
-          { key: "working", name: "Working+Heating", data: workingData, color: colorMap.working, yScale: y, type: "marker" }
         ];
 
-        // Draw lines sequentially (preserve your animation pattern)
-        const lineOrder = datasets.filter(d => d.type === "line");
-        let idx = 0;
-        function drawLineSeq() {
-          if (idx >= lineOrder.length) {
-            // after lines finish, draw markers
-            drawMarkers();
-            return;
-          }
-          const ds = lineOrder[idx];
-
-          // if dataset empty or visibility false skip (but still count as step)
+        datasets.forEach(ds => {
           const path = linesLayer.append("path")
             .datum(ds.data)
             .attr("class", `line line-${ds.key}`)
@@ -496,85 +537,97 @@
             .attr("stroke-width", 2.2)
             .attr("d", makeLine(ds.yScale));
 
-          // hide immediately if legend toggled off
+          // hide immediately if legend toggled off 
           if (!visibility[ds.key]) path.style("display", "none");
+          if (isInitialLoad) { // Only animate on first load 
+            // animate stroke-draw 
+            const totalLen = path.node().getTotalLength();
+            path.attr("stroke-dasharray", totalLen + " " + totalLen)
+              .attr("stroke-dashoffset", totalLen)
+              .transition()
+              .duration(10000) // preserved slow drawing for visibility 
+              .ease(d3.easeLinear)
+              .attr("stroke-dashoffset", 0)
 
-          // animate stroke-draw
-          const totalLen = path.node().getTotalLength() || 0;
-          path.attr("stroke-dasharray", totalLen + " " + totalLen)
-            .attr("stroke-dashoffset", totalLen)
-            .transition()
-            .duration(10000) // preserved slow drawing for visibility
-            .ease(d3.easeLinear)
-            .attr("stroke-dashoffset", 0)
-            .on("end", () => {
-              idx++;
-              drawLineSeq();
-            });
-        }
-        drawLineSeq();
-
-        // markers drawing
-        function drawMarkers() {
-          // heater markers (triangles) - rotate 180 when state false to show pointing down
-          const heaterG = markersLayer.selectAll(".heater").data(heaterData, d => d.x);
-          heaterG.enter()
-            .append("path")
-            .attr("class", "heater-marker")
-            .attr("d", d3.symbol().type(d3.symbolTriangle).size(110))
-            .attr("transform", d => `translate(${x(new Date(d.x))},${y(d.y)}) rotate(${d.state ? 0 : 180})`)
-            .attr("fill", d => d.state ? "green" : "red")
-            .style("opacity", 0)
-            .transition().duration(800).style("opacity", 1);
-
-          // override markers (diamond)
-          const ov = markersLayer.selectAll(".override").data(overrideData, d => d.x);
-          ov.enter()
-            .append("path")
-            .attr("class", "override-marker")
-            .attr("d", d3.symbol().type(d3.symbolDiamond).size(130))
-            .attr("transform", d => `translate(${x(new Date(d.x))},${y(d.y)})`)
-            .attr("fill", colorMap.override)
-            .style("opacity", 0)
-            .transition().duration(700).style("opacity", 1).attr("transform", d => `translate(${x(new Date(d.x))},${y(d.y)})`);
-
-          // working dots (pulsing circles)
-          const wk = markersLayer.selectAll(".working").data(workingData, d => d.x);
-          const wkEnter = wk.enter()
-            .append("g").attr("class", "working-group")
-            .attr("transform", d => `translate(${x(new Date(d.x))},${y(d.y)})`);
-          wkEnter.append("circle")
-            .attr("r", 4).attr("fill", colorMap.working).attr("class", "pulse-circle")
-          // remove/hide according to legend
-          if (!visibility.heater) markersLayer.selectAll(".heater-marker").style("display", "none");
-          if (!visibility.override) markersLayer.selectAll(".override-marker").style("display", "none");
-          if (!visibility.working) markersLayer.selectAll(".working-group").style("display", "none");
-        }
+          }
+        });
+        // ✅ Call markers with the datasets
+        drawMarkers(heaterData, overrideData, workingData);
       }
 
-      // --- legend (build once and wire toggles)
-      const legendContainer = d3.select("#custom-legend");
+      // markers drawing 
+      function drawMarkers(heaterData, overrideData, workingData) {
+
+        // heater triangles
+        markersLayer.selectAll(".heater-marker")
+          .data(heaterData)
+          .enter()
+          .append("path")
+          .attr("class", "heater-marker")
+          .attr("d", d3.symbol().type(d3.symbolTriangle).size(110))
+          .attr("transform", d => `translate(${x(new Date(d.x))},${y(d.y)}) rotate(${d.state ? 0 : 180})`)
+          .attr("fill", d => d.state ? "green" : "red");
+
+        // override diamonds
+        markersLayer.selectAll(".override-marker")
+          .data(overrideData)
+          .enter()
+          .append("path")
+          .attr("class", "override-marker")
+          .attr("d", d3.symbol().type(d3.symbolDiamond).size(130))
+          .attr("transform", d => `translate(${x(new Date(d.x))},${y(d.y)})`)
+          .attr("fill", colorMap.override);
+
+        // working dots
+        markersLayer.selectAll(".working-group")
+          .data(workingData)
+          .enter()
+          .append("circle")
+          .attr("class", "working-group")
+          .attr("r", 4)
+          .attr("cx", d => x(new Date(d.x)))
+          .attr("cy", d => y(d.y))
+          .attr("fill", colorMap.working);
+
+        // remove/hide according to legend state
+        if (!visibility.heater) markersLayer.selectAll(".heater-marker").style("display", "none");
+        if (!visibility.override) markersLayer.selectAll(".override-marker").style("display", "none");
+        if (!visibility.working) markersLayer.selectAll(".working-group").style("display", "none");
+      }
+
+      const legendIconMap = {
+        humidity: '💧', // Water drop for humidity 
+        room: '🏠', // House for room temperature 
+        setT: '🎯', // Target for set temperature/goal 
+        outside: '☁️', // Cloud for outside temperature 
+        heater: '🔥',  // Flame for heater state change (on/off) 
+        override: '⚠️', // Warning/Alert for override active 
+        working: '⚙️' // Gear/Tool for working/heating activity 
+      };
+
       const legendItems = [
-        { key: "humidity", label: "Humidity (%)", color: colorMap.humidity },
-        { key: "room", label: "Room Temp", color: colorMap.room },
-        { key: "setT", label: "Set Temp", color: colorMap.setT },
-        { key: "outside", label: "Outside Temp", color: colorMap.outside },
-        { key: "heater", label: "Heater State Change", color: colorMap.heater },
-        { key: "override", label: "Override Active", color: colorMap.override },
-        { key: "working", label: "Working + Heating", color: colorMap.working }
+        { key: "humidity", label: "Humidity", color: colorMap.humidity, icon: legendIconMap.humidity },
+        { key: "room", label: "Room Temp", color: colorMap.room, icon: legendIconMap.room },
+        { key: "setT", label: "Set Temp", color: colorMap.setT, icon: legendIconMap.setT },
+        { key: "outside", label: "Outside Temp", color: colorMap.outside, icon: legendIconMap.outside },
+        { key: "heater", label: "Heater State Change", color: colorMap.heater, icon: legendIconMap.heater },
+        { key: "override", label: "Override Active", color: colorMap.override, icon: legendIconMap.override },
+        { key: "working", label: "Working + Heating", color: colorMap.working, icon: legendIconMap.working }
       ];
 
+      // --- legend (build once and wire toggles) 
+      const legendContainer = d3.select("#custom-legend");
       legendItems.forEach(item => {
         const div = legendContainer.append("div").attr("class", "legend-item").attr("data-key", item.key);
-        div.append("span").attr("class", "legend-color").style("background", item.color);
+        div.append("span").attr("class", "legend-icon").style("color", item.color).html(item.icon); // Insert the emoji/icon 
         div.append("span").text(item.label);
         div.on("click", function () {
           const key = item.key;
           visibility[key] = !visibility[key];
           d3.select(this).classed("inactive", !visibility[key]);
-          // show/hide related elements
+          // show/hide related elements 
           if (["humidity", "room", "setT", "outside"].includes(key)) {
-            // hide/show line and dots
+            // hide/show line and dots 
             mainG.selectAll(`.line-${key}`).style("display", visibility[key] ? null : "none");
             mainG.selectAll(`.dot-${key}`).style("display", visibility[key] ? null : "none");
           } else if (key === "heater") {
@@ -587,19 +640,19 @@
         });
       });
 
-      // --- initial render using 'day' default
+      // --- initial render using 'day' default 
       let currentUnit = 'day';
-      //where we filter datasets for hour button
+      //where we filter datasets for hour button 
       function prepareAndDraw(unit, dayIso = null) {
-        // slice data based on unit and (for hours) selected day
-        // For Hours: filter datasets to only that day
+        // slice data based on unit and (for hours) selected day 
+        // For Hours: filter datasets to only that day 
         let humidityData = humidity.slice(), roomData = room.slice(), setTData = setT.slice(), outsideData = outside.slice();
         let heaterData = heaterMarkers.slice(), overrideData = overrideMarkers.slice(), workingData = workingDots.slice();
 
         if (unit === 'hour' && dayIso) {
-          // dayIso is midnight ISO string: keep only points within that day
+          // dayIso is midnight ISO string: keep only points within that day 
           const start = new Date(dayIso);
-          const end = new Date(start.getTime() + 24 * 3600 * 1000 - 1);
+          const end = new Date(start.getTime() + 24 * 3600 * 1000);
           const inRange = d => (new Date(d.x) >= start && new Date(d.x) <= end);
           humidityData = humidityData.filter(inRange);
           roomData = roomData.filter(inRange);
@@ -609,160 +662,134 @@
           overrideData = overrideData.filter(inRange);
           workingData = workingData.filter(inRange);
         } else {
-          // For day/week/month/year views keep all points but adjust x domain to full span
-          // domain will be set globally below
+          x.domain(d3.extent(allPoints, d => new Date(d.x)));
         }
-
-        // update x domain for the selected view:
-        // for hour w/ day => domain to that 24h range
+        // update x domain for the selected view: 
+        // for hour w/ day => domain to that 24h range 
         if (unit === 'hour' && dayIso) {
           const start = new Date(dayIso);
-          const end = new Date(start.getTime() + 24 * 3600 * 1000 - 1);
+          const end = new Date(start.getTime() + 24 * 3600 * 1000);
           x.domain([start, end]);
         } else {
-          // full extent from allPoints
           x.domain(d3.extent([...humidityData, ...roomData, ...setTData, ...outsideData,].map(d => new Date(d.x))));
         }
 
-        // update y domains
-        y.domain([0, d3.max([...roomData, ...setTData, ...outsideData], d => d && d.y) + 2]);
-        y2.domain([0, d3.max(humidityData, d => d && d.y) + 5]);
 
-        // render axes based on unit
+        currentXScale = x.copy();   // ✅ keep tooltip aligned
+        // render axes based on unit 
         renderAxes(unit, dayIso);
-
-        // draw everything
+        // draw everything 
         drawAll({
           humidityData, roomData, setTData, outsideData, heaterData, overrideData, workingData
         });
       }
-
-      // initial draw: for Day view show full range (or choose default)
+      // Initial call 
       prepareAndDraw(currentUnit, null);
-      const zoomBehavior = d3.zoom()
-        .scaleExtent([1, 16])
-        .translateExtent([[0, 0], [width, height]])
-        .on("zoom", zoomed);
+      isInitialLoad = false;
 
-      function zoomed(event) {
-        currentXScale = event.transform.rescaleX(x);
-        xAxisG.call(d3.axisBottom(currentXScale)); // Update X-Axis
-        drawingG.attr("transform", `translate(${event.transform.x}, 0) scale(${event.transform.k}, 1)`); // Transform lines/markers
-      }
-      // Apply zoom behavior to the chart SVG
-      svg.call(zoomBehavior);
-
-      // --- TOOLTIP INTERACTION LOGIC (ADDED) ---
-
-      // D3 Bisector to find the closest data point in time
+      // --- TOOLTIP INTERACTION LOGIC --- 
+      // D3 Bisector to find the closest data point in time 
       const bisectDate = d3.bisector(d => new Date(d.x)).left;
-
-      // The function that runs when the mouse moves over the graph
+      // The function that runs when the mouse moves over the graph 
       function mousemove(event) {
-        // Only continue if we have room data to reference the time
-        if (room.length === 0) return;
-
+        // Only continue if we have room data to reference the time 
+        if (room.length === 0 || isPanEnabled) return;  // Disable tooltip if pan is enabled 
         const [mx] = d3.pointer(event, mainG.node());
-        const xDate = x.invert(mx); // Convert mouse X-position back to a Date
+        const xDate = currentXScale.invert(mx); // Convert mouse X-position back to a Date 
 
-        // Find the closest data point in the Room Temp array (used as primary time reference)
+        // Find the closest data point in the Room Temp array (used as primary time reference) 
         const i = bisectDate(room, xDate, 1);
         const d0 = room[i - 1];
         const d1 = room[i];
-
-        // Choose the data point that's temporally closest to the mouse's X position
+        // Choose the data point that's temporally closest to the mouse's X position 
         const d = (d1 && xDate - new Date(d0.x) > new Date(d1.x) - xDate) ? d1 : d0;
-
         if (!d) return;
 
-        // --- Update Focus Elements ---
-        const xPos = x(new Date(d.x));
+        // --- Update Focus Elements --- 
+        const xPos = currentXScale(new Date(d.x));
         const yPos = y(d.y);
-
         focus.attr("transform", `translate(${xPos}, 0)`);
         focusCircle.attr("cy", yPos);
 
-        // --- Retrieve values for the other datasets at the same timestamp (d.x) ---
+        // --- Retrieve values for the other datasets at the same timestamp (d.x) --- 
         const humidityPoint = humidity.find(p => p.x === d.x);
         const setPoint = setT.find(p => p.x === d.x);
         const working = setT.find(p => p.x === d.x);
-        // **FIXED**: Use bisector for outside data to find the closest point in time
+
+        // **FIXED**: Use bisector for outside data to find the closest point in time 
         const iOutside = d3.bisector(d => new Date(d.x)).left(outside, xDate, 1);
         const dOutside0 = outside[iOutside - 1];
         const dOutside1 = outside[iOutside];
         const outsidePoint = (dOutside1 && xDate - new Date(dOutside0.x) > new Date(dOutside1.x) - xDate) ? dOutside1 : dOutside0;
 
-        // **FIXED**: Use bisector for working data to find the closest point in time
+        // **FIXED**: Use bisector for working data to find the closest point in time 
         const iWorking = d3.bisector(d => new Date(d.x)).left(workingDots, xDate, 1);
         const dWorking0 = workingDots[iWorking - 1];
         const dWorking1 = workingDots[iWorking];
         const workingPoint = (dWorking1 && xDate - new Date(dWorking0.x) > new Date(dWorking1.x) - xDate) ? dWorking1 : dWorking0;
 
+        const isWorkingHeating = d.raw.working_hours === 'true' && d.raw.heating === 'true';
+        const isHeatingOn = d.raw.heating === 'true';
         let tooltipContent = `<div style="font-weight:bold">${d3.timeFormat("%b %d, %H:%M")(new Date(d.x))}</div>`;
 
         // 1. Room Temp (Primary)
         if (visibility.room) {
           const heaterStatus = d.raw.heating === 'true' ? ' ON' : 'OFF';
+          const flameIcon = isHeatingOn ? '🔥' : '💧'; // Flaming/Water Drop icon 
+          const statusColor = isHeatingOn ? 'green' : 'red';
           tooltipContent += `<div><span style="color:${colorMap.room};">&#9679;</span> Room Temp: ${d.y.toFixed(1)} °C</div>`;
-          tooltipContent += `<div style="padding-left:14pxc; font-size:12px;"><span style="color:${colorMap.heater};">&#9679;</span>Heater: ${heaterStatus}</div>`;
+          // New Animated/Iconic Status Line 
+          tooltipContent += `<div style="font-size:14px;">${flameIcon}Heater: ${heaterStatus}</div>`;
         }
-        if (visibility.working) {
-          const isWorkingHeating = d.raw.working_hours === 'true' && d.raw.heating === 'true';
-          if (isWorkingHeating) {
-            tooltipContent += `<div><span style="color:${colorMap.working};">&#9679;</span> Working + Heating Active</div>`;
-          }
+
+        if (visibility.working && isWorkingHeating) {
+          tooltipContent += `<div><span style="color:${colorMap.working};">&#9679;</span> Working + Heating Active</div>`;
         }
-        // 2. Set Temp
+
+        // 2. Set Temp 
         if (visibility.setT && setPoint) {
           tooltipContent += `<div><span style="color:${colorMap.setT};">&#9679;</span> Set Temp: ${setPoint.y.toFixed(1)} °C</div>`;
         }
-
-        // 3. Outside Temp
+        // 3. Outside Temp 
         if (visibility.outside && outsidePoint) {
-          tooltipContent += `<div><span style="color:${colorMap.outside};">&#9679;</span> Outside Temp: ${outsidePoint.y.toFixed(1)} °C (Glasgow)</div>`;
+          tooltipContent += `<div><span style="color:${colorMap.outside};">&#9679;</span> Outside Temp: ${outsidePoint.y.toFixed(1)} °C</div>`;
         }
-
-        // 4. Humidity
+        // 4. Humidity 
         if (visibility.humidity && humidityPoint) {
           tooltipContent += `<div><span style="color:${colorMap.humidity};">&#9679;</span> Humidity: ${humidityPoint.y.toFixed(0)} %</div>`;
         }
-
-
-        // Position and show the tooltip
+        // Position and show the tooltip 
         tooltip.style("opacity", 1)
           .html(tooltipContent)
           .style("left", (event.pageX + 10) + "px")
           .style("top", (event.pageY - 28) + "px");
       }
-
-      // Function to hide elements on mouseout
+      // Function to hide elements on mouseout 
       function mouseout() {
+        if (isPanEnabled) return; // Keep focus elements hidden if pan is enabled 
         focus.style("display", "none");
         tooltip.style("opacity", 0);
       }
-
-      // Attach the listeners to a transparent rectangle covering the chart area
+      // Attach the listeners to a transparent rectangle covering the chart area 
       mainG.append("rect")
         .attr("class", "overlay")
         .attr("width", width)
         .attr("height", height)
         .style("fill", "none")
-        .style("pointer-events", "all") // Crucial for capturing events
-        .on("mouseover", () => focus.style("display", null))
+        .style("pointer-events", "all") // Crucial for capturing events 
+        .on("mouseover", () => { if (!isPanEnabled) focus.style("display", null); })
         .on("mouseout", mouseout)
         .on("mousemove", mousemove);
+      // --- END TOOLTIP INTERACTION LOGIC --- 
 
-      // --- END TOOLTIP INTERACTION LOGIC ---
-
-      // --- time buttons behavior
+      // --- time buttons behavior moving fromt d-h h-d 
       const btns = d3.selectAll(".time-buttons button");
       btns.on("click", function () {
         btns.classed("active", false);
         d3.select(this).classed("active", true);
         const unit = d3.select(this).attr("data-unit");
         currentUnit = unit;
-        if (unit === 'hour') {
-          // pick the selected day (if available) — default to first date from recordDates
+        if (unit === 'hour') {  //pick the selected day (if available) — default to first date from recordDates  
           const day = selectedDayISO || recordDates[0];
           if (!day) {
             alert("No day data available in data.json for 'Hours' view.");
@@ -772,31 +799,32 @@
         } else {
           prepareAndDraw(unit, null);
         }
+
       });
 
-      // allow clicking on x-axis ticks to choose a day for hour view (optional: lets user click a day tick)
-      xAxisG.on("dblclick", function (event) {
-        const [mx] = d3.pointer(event, this);
-        const dateClicked = x.invert(mx);
-        // convert to midnight ISO
-        const dMid = new Date(dateClicked); dMid.setHours(0, 0, 0, 0);
-        selectedDayISO = dMid.toISOString();
-        // set Hours button active
-        btns.classed("active", false);
-        d3.select(".time-buttons button[data-unit='hour']").classed("active", true);
-        currentUnit = 'hour';
-        prepareAndDraw('hour', selectedDayISO);
+      // --- DATE PICKER EVENT LISTENER (NEW) --- 
+      d3.select("#dataDate").on("change", function () {
+        const selectedDateISO = this.value; // Format: YYYY-MM-DD 
+        if (selectedDateISO) {
+          // This logic triggers the zoom-in to the specific day 
+          // The 'day' is passed as dayIso to prepareAndDraw 
+          currentUnit = 'hour';
+          prepareAndDraw('hour', selectedDateISO);
+          // Update the active time button to 'Hours' 
+          const btns = d3.selectAll(".time-buttons button");
+          btns.classed("active", false);
+          d3.select(".time-buttons button[data-unit='hour']").classed("active", true);
+        }
       });
-
 
       window.zoomBy = (factor) => {
         svg.transition().call(zoomBehavior.scaleBy, factor);
       };
+
       window.resetZoom = () => {
         svg.transition().duration(600).call(zoomBehavior.transform, d3.zoomIdentity);
       };
-
-      // download svg
+      // download svg 
       window.downloadSVG = () => {
         const serializer = new XMLSerializer();
         const source = serializer.serializeToString(svg.node());
@@ -806,12 +834,11 @@
         a.href = url; a.download = "chart.svg"; a.click();
         URL.revokeObjectURL(url);
       };
-
-      // expose setTimeUnit for older usage if needed
+      // expose setTimeUnit for older usage if needed 
       window.setTimeUnit = (unit) => {
-        // toggle corresponding button active
+        const targetButton = d3.select(`.time-buttons button[data-unit='${unit}']`);
         btns.classed("active", false);
-        d3.select(`.time-buttons button[data-unit='${unit}']`).classed("active", true);
+        targetButton.classed("active", true);
         currentUnit = unit;
         if (unit === 'hour') {
           const day = selectedDayISO || recordDates[0];
@@ -820,8 +847,7 @@
           prepareAndDraw(unit, null);
         }
       };
-
-      // helper: when user wants Hours for a particular date, you can set window.selectedDayISO = "<ISO midnight>" then call setTimeUnit('hour')
+      // helper: when user wants Hours for a particular date, you can set window.selectedDayISO = "<ISO midnight>" then call setTimeUnit('hour') 
       window.selectDayForHours = (isoMidnightString) => {
         if (!isoMidnightString) return;
         selectedDayISO = isoMidnightString;
