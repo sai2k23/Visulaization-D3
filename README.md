@@ -62,8 +62,6 @@ Visualization-D3/
 
 ---
 
-## 🚀 How to Run Locally
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/sai2k23/Visualization-D3.git
