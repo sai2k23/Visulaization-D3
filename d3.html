@@ -381,7 +381,7 @@
         if (unit === 'hour') {
           axis = d3.axisBottom(x)
             .ticks(d3.timeHour.every(1))
-            .tickFormat(d3.timeFormat(" %b:%d:%H:%M"));
+            .tickFormat(d3.timeFormat("%b %d-%H:%M"));
         } else if (unit === 'day') {
           axis = d3.axisBottom(x)
             .ticks(d3.timeDay.every(1))
@@ -389,7 +389,7 @@
         } else if (unit === 'week') {
           axis = d3.axisBottom(x)
             .ticks(d3.timeWeek.every(1))
-            .tickFormat(d => "W" + d3.timeFormat("%b:%d")(d));
+            .tickFormat(d => "W" + d3.timeFormat(" %b-%d")(d));
         } else if (unit === 'month') {
           axis = d3.axisBottom(x)
             .ticks(d3.timeMonth.every(1))
@@ -399,6 +399,12 @@
             .ticks(d3.timeYear.every(1))
             .tickFormat(d3.timeFormat("%Y"));
         }
+        if (unit === 'minute') {
+          axis = d3.axisBottom(x)
+            .ticks(d3.timeMinute.every(5))   // every 5 minutes
+            .tickFormat(d3.timeFormat(" %b %d-%H:%M"));
+        }
+
         xAxisG.call(axis)
           .selectAll("text")
           .style("text-anchor", "end")
@@ -412,16 +418,32 @@
           });
         // Function to navigate from x-axis tick click → hours of that date
         function navigateToDate(clickedDate) {
-          const startOfDay = new Date(clickedDate);
-          startOfDay.setHours(0, 0, 0, 0);
+          if (currentUnit === 'day') {
+            // Day → Hour
+            const startOfDay = new Date(clickedDate);
+            startOfDay.setHours(0, 0, 0, 0);
 
-          selectedDayISO = startOfDay.toISOString();
-          currentUnit = 'hour';
-          prepareAndDraw('hour', selectedDayISO);
+            selectedDayISO = startOfDay.toISOString();
+            currentUnit = 'hour';
+            prepareAndDraw('hour', selectedDayISO);
 
-          const btns = d3.selectAll(".time-buttons button");
-          btns.classed("active", false);
-          d3.select(".time-buttons button[data-unit='hour']").classed("active", true);
+            const btns = d3.selectAll(".time-buttons button");
+            btns.classed("active", false);
+            d3.select(".time-buttons button[data-unit='hour']").classed("active", true);
+
+          } else if (currentUnit === 'hour') {
+            // Hour → Minute
+            const startOfHour = new Date(clickedDate);
+            startOfHour.setMinutes(0, 0, 0);
+
+            const endOfHour = new Date(startOfHour.getTime() + 60 * 60 * 1000);
+
+            currentUnit = 'minute';
+            prepareAndDraw('minute', startOfHour.toISOString());
+
+            // (Optional) If you want a UI button highlight for "Minutes"
+            // you could add it, but leaving it hidden works fine.
+          }
         }
 
         yAxisG.call(d3.axisLeft(y));
@@ -527,6 +549,8 @@
           { key: "setT", name: "Set Temp (°C)", data: setTData, color: colorMap.setT, yScale: y, type: "line" },
           { key: "outside", name: "Outside Temp (°C)", data: outsideData, color: colorMap.outside, yScale: y, type: "line" },
         ];
+        // Track max transition duration
+        let maxDuration = 0;
 
         datasets.forEach(ds => {
           const path = linesLayer.append("path")
@@ -540,19 +564,26 @@
           // hide immediately if legend toggled off 
           if (!visibility[ds.key]) path.style("display", "none");
           if (isInitialLoad) { // Only animate on first load 
-            // animate stroke-draw 
-            const totalLen = path.node().getTotalLength();
+            const totalLen = path.node().getTotalLength();// animate stroke-draw 
+            const duration = 70000; //  for all lines together
+            maxDuration = Math.max(maxDuration, duration);
             path.attr("stroke-dasharray", totalLen + " " + totalLen)
               .attr("stroke-dashoffset", totalLen)
               .transition()
-              .duration(10000) // preserved slow drawing for visibility 
+              .duration(duration) // preserved slow drawing for visibility 
               .ease(d3.easeLinear)
               .attr("stroke-dashoffset", 0)
 
           }
         });
-        // ✅ Call markers with the datasets
-        drawMarkers(heaterData, overrideData, workingData);
+        // ⏳ Delay markers until after animation ends
+        if (isInitialLoad) {
+          setTimeout(() => {
+            drawMarkers(heaterData, overrideData, workingData);
+          }, maxDuration);
+        } else {
+          drawMarkers(heaterData, overrideData, workingData);
+        }
       }
 
       // markers drawing 
@@ -661,7 +692,20 @@
           heaterData = heaterData.filter(inRange);
           overrideData = overrideData.filter(inRange);
           workingData = workingData.filter(inRange);
-        } else {
+        } else if (unit === 'minute' && dayIso) {
+          const start = new Date(dayIso);
+          const end = new Date(start.getTime() + 60 * 60 * 1000); // 1 hour span
+          const inRange = d => (new Date(d.x) >= start && new Date(d.x) <= end);
+          humidityData = humidityData.filter(inRange);
+          roomData = roomData.filter(inRange);
+          setTData = setTData.filter(inRange);
+          outsideData = outsideData.filter(inRange);
+          heaterData = heaterData.filter(inRange);
+          overrideData = overrideData.filter(inRange);
+          workingData = workingData.filter(inRange);
+          x.domain([start, end]);
+        }
+        else {
           x.domain(d3.extent(allPoints, d => new Date(d.x)));
         }
         // update x domain for the selected view: 
