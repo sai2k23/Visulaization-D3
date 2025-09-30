@@ -53,13 +53,10 @@ An interactive **D3.js line chart** for exploring **Temperature & Humidity data*
 
 ## 🗂️ Project Structure
 
-Visualization-D3/
-│
-├── d3.html # Main D3 chart implementation
-├── data.json # Local dataset (temperature, humidity, heater logs)
-├── README.md # Documentation
-
-
+## Visualization-D3/
+- **d3.html # Main D3 chart implementation
+- ** data.json # Local dataset (temperature, humidity, heater logs)
+- ** README.md # Documentation
 ---
 
 1. Clone the repository:
